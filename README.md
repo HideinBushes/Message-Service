@@ -1,4 +1,4 @@
-# WinIt-Messenger
+# post and retrieve messages from a web server
 
 This is a server built in Nodejs, it allows clients to post messages, after the server recieves the message, it sends a link back to the clients via email or SMS for retrieving the posted message.
 
@@ -18,7 +18,7 @@ To run it on your machine, you need:
  
 The link sent from the server is only valid when your device is in the same local network with the server(eg. connect to the same router), if you want to deploy it on aws ec2 or heroku, you need:
 
-Change the return of the method generateLink() (/data/index ) to associate the domain name of you app.
+Change the return of the method # generateLink() (/data/index ) to associate the domain name of you app.
 
  	generateLink(id){
 
