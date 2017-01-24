@@ -14,7 +14,6 @@ var exportedMethods = {
 	},
 
 	generateLink(id){
-		var os = require('os');
 
 		var interfaces = os.networkInterfaces();
 		var addresses = [];
