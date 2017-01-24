@@ -1,0 +1,27 @@
+{
+  "name": "web-service",
+  "version": "1.0.0",
+  "description": "email and sms module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Pandong Zhang",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "ejs": "^2.5.5",
+    "express": "^4.14.0",
+    "nodemailer": "^2.7.2",
+    "twilio": "^2.11.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HideinBushes/post-and-retrieve-messages.git"
+  },
+  "keywords": [
+    "email",
+    "sms"
+  ]
+}

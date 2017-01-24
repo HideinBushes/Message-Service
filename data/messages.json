@@ -1,0 +1,28 @@
+{
+    "messages": [
+        {
+            "email": "test@sdsd",
+            "tel": "2323",
+            "message": "23232",
+            "type": "email"
+        },
+        {
+            "email": "pzhangstevens@gmail.com",
+            "tel": "2012089656",
+            "message": "hello",
+            "type": "email"
+        },
+        {
+            "email": "pzhangstevens@gmail.com",
+            "tel": "2012089656",
+            "message": "hello",
+            "type": "SMS"
+        },
+        {
+            "email": "pzhangstevens@gmail.com",
+            "tel": "2012089656",
+            "message": "hello",
+            "type": "email"
+        }
+    ]
+}
